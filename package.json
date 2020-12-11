@@ -4,7 +4,8 @@
   "description": "Single page application with Javascript vanilla",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "Javascript",
@@ -16,8 +17,8 @@
     "@babel/core": "^7.12.9",
     "babel-loader": "^8.2.2",
     "html-webpack-plugin": "^4.5.0",
-    "webpack": "^5.10.0",
-    "webpack-cli": "^4.2.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {}
