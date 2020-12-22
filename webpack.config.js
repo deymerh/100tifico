@@ -18,7 +18,11 @@ module.exports = {//Aquí se encuentra toda la configuración de lo que va a suc
         use: {
           loader: 'babel-loader'  //Utilizar un loader como configuración establecida.
         }
-      }
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
     ]
   },
   plugins: [//Establecemos los plugins que vamos a utilizar
@@ -28,6 +32,6 @@ module.exports = {//Aquí se encuentra toda la configuración de lo que va a suc
         template: './public/index.html',  //Dirección donde se encuentra el template principal
         filename: './index.html' //Directorio y nombre que tendrá el archivo
       }
-    )
+    ),
   ]
 }
