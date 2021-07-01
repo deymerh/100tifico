@@ -12,3 +12,5 @@ haml-webpack-plugin
 webpack
 webpack-cli
 webpack-dev-server
+
+<img src="./src/assets/100tifico.png" width="100%" alt="preview" />
