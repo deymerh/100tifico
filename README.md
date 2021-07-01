@@ -1,5 +1,13 @@
 # 100tifico
 
+## git clone https://github.com/deymerh/100tifico.git
+
+## cd 100tifico
+
+## npm install
+
+## npm run dev
+
 This proyect is to practice creates a single page application with javascript vanilla!
 
 Proyect created by #Deymer Hernández.
